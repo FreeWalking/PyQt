@@ -1,7 +1,10 @@
 # 简要
-    个人通过PyQt5开发的程序(pyqt5+python3.4)
-    通过PyQt5将写好的python脚步在Py2exe下转换成可以在windows下可执行的工具；
-    开发说明：
+* 个人通过PyQt5开发的程序(pyqt5+python3.4)
+* 通过PyQt5将写好的python脚步在Py2exe下转换成可以在windows下可执行的工具；
+    
+
+##`开发说明：`
+
     1、安装python3.4
         设置环境变量3.4版本为默认
     2、安装PyQt5
@@ -20,17 +23,17 @@
 
 [以上软件下载地址](http://pan.baidu.com/s/1c1GVhgk "百度云盘")
 
-编译过程如下图：
+`编译过程`如下图：
 
-![py2exe.bat批处理](https://github.com/liaohw/Python/blob/master/EncodeConv/res/py2exe.jpg)
+![py2exe.bat批处理](https://github.com/liaohw/PyQt/blob/master/EncodeConv/res/py2exe.jpg)
 
-## 1、PyQt5.base
+## PyQt5.base
 * 基础模板
 
-## 2、EncodeConv
+## EncodeConv
 * py2exe.bat批处理，通过ui生成界面代码，并生成可执行工具dist\EncodeConv.exe；
 * EncodeConv.py实现了编码格式转换逻辑；
     执行过程如下图：
-![EncodeConv.exe执行](https://github.com/liaohw/Python/blob/master/EncodeConv/res/runExe.jpg)
+![EncodeConv.exe执行](https://github.com/liaohw/PyQt/blob/master/EncodeConv/res/runExe.jpg)
 
-## 2、ContactsApp
+## ContactsApp
