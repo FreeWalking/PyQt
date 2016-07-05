@@ -18,7 +18,7 @@ setup(
       name = 'PyQt Demo',
       version = '1.0',
       windows = ['test.py',],
-	  data_files=[("",
+	    data_files=[("",
                    [r"C:\Python34\Lib\site-packages\PyQt5\libEGL.dll"]),
                   ("platforms",
                    [r"C:\Python34\Lib\site-packages\PyQt5\plugins\platforms\qwindows.dll"])],
