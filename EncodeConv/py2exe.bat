@@ -4,7 +4,7 @@
 :关闭显示命令，使得所有命令执行前不显示
 @ echo off
 
-cd E:\BaiduYunSyncDisk\SyncForBak\GitHub\Python\EncodeConv
+cd E:\BaiduYunSyncDisk\SyncForBak\GitHub\PyQt\EncodeConv
 e:
 echo ----complied pyqt5.ui to *.py
 call C:\Python34\Lib\site-packages\PyQt5\pyuic5.bat EncodeConv.ui -o Ui_EncodeConv.py
