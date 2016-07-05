@@ -36,4 +36,8 @@
     执行过程如下图：
 ![EncodeConv.exe执行](https://github.com/liaohw/PyQt/blob/master/EncodeConv/res/runExe.jpg)
 
-## ContactsApp
+## AiBrowser
+执行方式：
+* 1、python ./browser.py
+* 2、run.bat (从新生成Ui界面)
+
