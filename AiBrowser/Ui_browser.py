@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'browser.ui'
 #
-# Created: Tue Jul  5 11:18:37 2016
+# Created: Thu Jul  7 11:22:50 2016
 #      by: PyQt5 UI code generator 5.4
 #
 # WARNING! All changes made in this file will be lost!
@@ -13,7 +13,7 @@ class Ui_BrowserForm(object):
     def setupUi(self, BrowserForm):
         BrowserForm.setObjectName("BrowserForm")
         BrowserForm.setEnabled(True)
-        BrowserForm.resize(1375, 683)
+        BrowserForm.resize(1375, 705)
         self.loadButton = QtWidgets.QPushButton(BrowserForm)
         self.loadButton.setGeometry(QtCore.QRect(900, 10, 75, 23))
         self.loadButton.setMinimumSize(QtCore.QSize(75, 0))
@@ -25,7 +25,7 @@ class Ui_BrowserForm(object):
         self.lineEdit.setGeometry(QtCore.QRect(290, 10, 591, 20))
         self.lineEdit.setObjectName("lineEdit")
         self.webView = QtWebKitWidgets.QWebView(BrowserForm)
-        self.webView.setGeometry(QtCore.QRect(10, 40, 1341, 641))
+        self.webView.setGeometry(QtCore.QRect(-10, 40, 1371, 651))
         self.webView.setUrl(QtCore.QUrl("about:blank"))
         self.webView.setObjectName("webView")
         self.pushButton = QtWidgets.QPushButton(BrowserForm)
@@ -52,6 +52,8 @@ class Ui_BrowserForm(object):
         self.pushButton_2.clicked.connect(self.webView.back)
         self.pushButton_3.clicked.connect(self.webView.forward)
         self.pushButton_5.clicked.connect(BrowserForm.gohome)
+        self.lineEdit.returnPressed.connect(BrowserForm.loadweb)
+        self.webView.linkClicked['QUrl'].connect(BrowserForm.linkclicked)
         QtCore.QMetaObject.connectSlotsByName(BrowserForm)
 
     def retranslateUi(self, BrowserForm):
